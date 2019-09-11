@@ -1,0 +1,76 @@
+/*Estilos Primcipales*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background: #EAEDED;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+.container
+{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+}
+main article 
+{
+    background: #FFF;
+    margin: 20px 0;
+    padding: 20px;
+    height: 1000px;
+}
+
+/*--------------*/
+/* Estilos Del Menu*/
+/*--------------*/
+
+.menu
+{
+    background: blueviolet;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.menu .container-botones-menu
+{
+    display: none;
+    /*display none or flex*/
+    justify-content: space-between;
+    
+}
+
+.menu .container-botones-menu button
+{
+    font-size: 20px;
+    color: red;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+
+}
+.menu .container-botones-menu button:hover 
+{
+    border: 1px solid rgba(red, blue, purple, .3);
+}
+
+.menu .container-botones-menu .btn-menu-cerrar
+{
+    display: none;
+}
+
+.menu .container-botones-menu .btn-menu-cerrar.activo
+{
+    display: inline-block;
+
+}
